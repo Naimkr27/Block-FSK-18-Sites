@@ -1,4 +1,4 @@
 @@||youtube.com/live^
-@@||*.googlevideo.com^$media
+@@||*.googlevideo.com^$media,domain=youtube.com
 @@||t.adcell.com^
 @@||click.linksynergy.com^
