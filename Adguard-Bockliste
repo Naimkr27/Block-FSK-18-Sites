@@ -1,44 +1,49 @@
-||filma365.cc^$document
-||*ivi.tv*$document
-||*movie2k*^$document
-||*movie4k*^$document
-||streamtape.com^$document
-||severesexfilms.com^$document
-||*kinox*^$document
-||*kinoz*^$document
-||burg-ibiza.de^$document
-||*Porn*^$document
-||*sex*^$document
-||*titten*^$document
-||*swingner*^$document
-||*swap*^$document
-||*fuck*^$document
-||*mother*^$document
-||t729.neory-tm.net^$document
-||personalitymag.com^$document
-||www.brigitte.de^$document
-||brigitte.de^$document
-||bier69.com^$document
-||www.bier69.com^$document
-||www.unitedfuck-pornos.com^$document
-||unitedfuck-pornos.com^$document
-||xvideosdeutsch.net^$document
-||gratiskeezmovies.net^$document
-||www.telejule.com^$document
-||telejule.com^$document
-||www.sexamtelefon.eu^$document
-||mydirtystories.com^$document
-||sexamtelefon.eu^$document
-||mydirtystories.com^$document
-||date-magazin.com^$document
-||sexgeschichten-top.com^$document
-||homolex.com^$document
-||bravoporno.net^$document
-||www.privateliste.com^$document
-||privateliste.com^$document
-||www.paarkontakte.at^$document
-||paarkontakte.at^$document
-||swinger-dating.net^$document
-||www.mojeek.de^$document
-||mojeek.de^$document
-@@
+[Adblock Plus 2.0]
+! Title: Persönliche Sperrliste (Content & Domains)
+! Description: Blockiert Seiten mit erotischem, illegalem oder unerwünschtem Inhalt
+! Version: 2025.10.11
+! Expires: 1 day
+! Homepage: https://github.com/<dein-github-name>/adguard-blocklist
+! Lizenz: CC BY-SA 4.0
+! Last modified: 2025-10-11
+
+! ------------------------------
+! 🎯 Direkte Domain-Blockierungen
+! ------------------------------
+
+||filma365.cc^$important,document
+||ivi.tv^$important,document
+||movie2k.to^$important,document
+||movie4k.to^$important,document
+||streamtape.com^$important,document
+||severesexfilms.com^$important,document
+||kinox.to^$important,document
+||kinoz.to^$important,document
+||burg-ibiza.de^$important,document
+||t729.neory-tm.net^$important,document
+||personalitymag.com^$important,document
+||brigitte.de^$important,document
+||bier69.com^$important,document
+||unitedfuck-pornos.com^$important,document
+||xvideosdeutsch.net^$important,document
+||gratiskeezmovies.net^$important,document
+||telejule.com^$important,document
+||sexamtelefon.eu^$important,document
+||mydirtystories.com^$important,document
+||date-magazin.com^$important,document
+||sexgeschichten-top.com^$important,document
+||homolex.com^$important,document
+||bravoporno.net^$important,document
+||privateliste.com^$important,document
+||paarkontakte.at^$important,document
+||swinger-dating.net^$important,document
+||mojeek.de^$important,document
+
+! -----------------------------------
+! 🔍 Blockierung nach Domain-Begriffen
+! -----------------------------------
+! Blockiert Domains, die diese Wörter enthalten:
+! (porn, sex, titten, swinger, swap, fuck, mother)
+! Beispiel: https://mypornsite.com → wird blockiert
+
+/:\/\/[^\/]*(porn|sex|titten|swinger|swap|fuck|mother)\./$important,document
