@@ -12,6 +12,8 @@
 ! ------------------------------
 
 ||filma365.cc^$important,document
+||filma24.stream^$important,document
+||kokoshka.digital^$important,document
 ||www.filmaon.bz^$important,document
 ||filmaon.bz^$important,document
 ||searx.org^$important,document
@@ -49,4 +51,4 @@
 ! (porn, sex, titten, swinger, swap, fuck, mother)
 ! Beispiel: https://mypornsite.com → wird blockiert
 
-/:\/\/[^\/]*(porn|sex|titten|swinger|swap|fuck|mother)\./$important,document
+/:\/\/[^\/]*(porn|sex|titten|swinger|swap|filma|fuck|mother)\./$important,document
